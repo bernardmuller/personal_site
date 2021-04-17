@@ -1,0 +1,53 @@
+.about {
+    display: flex;
+    flex-direction: column;  
+    height: 100%;
+    width: 100%;
+    padding: 40px;  
+    line-height: 1.8;
+}
+
+.about > h2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.about_Top {
+    display: flex;
+    justify-content: space-between;
+    flex: 0.5;
+    margin-top: 35px;
+    
+}
+
+.about_Top_Left {  
+    width: 420px;
+}
+
+.about_Me {
+    overflow-wrap: break-word;
+    
+}
+
+.about_Top_Right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    height: 150px;
+}
+
+
+
+.about_Info_Heading {
+    font-weight: 700;
+    color: #A32424;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.about_Bottom {
+    flex: 0.5;
+}
+
+

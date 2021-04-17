@@ -1,9 +1,12 @@
 import './App.css';
 
+//Components
+import Window from './Components/Window'
+
 function App() {
   return (
-    <div className="App">
-      
+    <div className="app">
+      <Window />
       
     </div>
   );
