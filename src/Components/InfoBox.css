@@ -6,6 +6,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    overflow: auto;
 }
 
 .info {
@@ -88,5 +89,6 @@
 
 .copyright > span > a {
     color: #A32424;
+    position: fixed;
 }
 

@@ -6,13 +6,26 @@
 }
 
 .resume_Container {
-    width: 700px;
+    width: 95%;
     overflow: scroll;
     overflow-x: hidden;
-    height: 720px;
+    height: 100%;
     direction: rtl;
     padding-left: 40px;
 }
+
+.resume_Header {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.container_Header {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
 
 /* Career Objective */
 .career_Objective {
@@ -20,16 +33,9 @@
     margin-bottom: 50px;
 }
 
-.career_Objective > h2 {
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-
 .career_Objective > p {
     color: #cfcfcf;
-    
+    margin-left: 30px;
 }
 
 
@@ -39,12 +45,6 @@
     margin-bottom: 50px;
 }
 
-
-.experience_Container > h2 {
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
 
 .experience_Role > span {    
     color: #cfcfcf;
@@ -82,10 +82,47 @@
 /* Education */
 .education_Container {
     direction: ltr;
-    
+    margin-bottom: 50px;
 }
 
-.education_Container > h2 {
-    font-size: 30px;
-    font-weight: 700;
+
+.education_Role > span {    
+    color: #cfcfcf;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+
+.education_Role > p {
+    margin-left: 30px;
+    color: #707070;
+}
+
+
+.education_Role > p > a {    
+    color: #A32424;
+}
+
+
+.education_Role > h3 {
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    font-size: 20px;
+    color: #A32424;
+}
+
+
+.education_Role {
+    margin-bottom: 20px;
+    line-height: 1.5;
+    margin-left: 30px;
+}
+
+
+
+/* Certificates */
+.certificates_Container {
+    direction: ltr;
+    
 }

@@ -4,5 +4,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #BFBFBF;
+  background: linear-gradient(-45deg,#0c0c0c, #303030, #2b1212, #181818);
+  background-size: 400% 400%;
+  position: relative;
+  animation: change 30s ease-in-out infinite;
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
 }

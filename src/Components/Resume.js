@@ -6,11 +6,12 @@ function Resume() {
         <div className="resume">
             <div className="resume_Container">
                 <div className="career_Objective">
-                    <h2>Career Objective</h2>
+                    <h2 className="resume_Header">Resume</h2>
+                    <h2 className="container_Header">Career Objective</h2>
                     <p>Proactive professional with 2+ years of experience in a work environment and a proven knowledge of design and documentation. Actively expanding my skillset and aiming to leverage my skills to successfully fill the Software Developer role at your company.</p>
                 </div>            
                 <div className="experience_Container">
-                    <h2>Experience</h2>
+                    <h2 className="container_Header">Experience</h2>
                     <div className="experience_Role">
                         <h3>Software Developer</h3>
                         <span>Freelance, Cape Town (Jun 2020 - Present)</span>
@@ -43,7 +44,7 @@ function Resume() {
                     </div>
                 </div>
                 <div className="education_Container">
-                    <h2>Education</h2>
+                    <h2 className="container_Header">Education</h2>
                     <div className="education_Role">
                         <h3>The Web Developer Bootcamp 2021, by Colt Steele</h3>
                         <span>(Dec 2020 - Apr 2021)</span>
@@ -58,6 +59,10 @@ function Resume() {
                         <span>Montana HighSchool, (Jan 2010 - Dec 2014)</span>
                         <p>Top 50 academic student with 2 destictions</p>
                     </div>
+                </div>
+                <div className="certificates_Container">
+                    <h2 className="container_Header">Certificates</h2>
+                    <p>Insert Certificate Components here</p>
                 </div>
             </div>
         </div>
