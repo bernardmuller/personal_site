@@ -8,11 +8,11 @@
 }
 
 .about > h2 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 700;
 }
 
-.about_Top {
+.about_Container {
     display: flex;
     justify-content: space-between;
     flex: 0.5;
@@ -20,23 +20,50 @@
     
 }
 
-.about_Top_Left {  
-    width: 420px;
+.about_Me {  
+    width: 450px;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 630px;
+    direction: rtl;
 }
 
-.about_Me {
+
+.about_Me p {
     overflow-wrap: break-word;
-    
+    margin-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 10px;
+    direction: ltr;
 }
 
-.about_Top_Right {
+.about_Right {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    width: 300px;
+}
+
+.about_Right_Top {
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    
     width: 250px;
     height: 150px;
 }
 
+.tech > img {
+    margin-right: 5px;
+}
+
+.about_Right_Bottom > h3{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    font-size: 18px;
+    color: #A32424;
+    margin-bottom: 10px;
+}
 
 
 .about_Info_Heading {
@@ -46,8 +73,27 @@
     margin-right: 10px;
 }
 
-.about_Bottom {
-    flex: 0.5;
-}
 
 
+/* width */
+::-webkit-scrollbar {
+    width: 6px;    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #707070;
+    border-radius:3px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #A32424;
+    border-radius:3px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #A32424;
+    border-radius:3px;
+  }

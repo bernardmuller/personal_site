@@ -29,9 +29,8 @@ function InfoBox({name, picUrl, role}) {
                 </div>                
                 <a className="cvButton" href="../resume_mockup.pdf" download >Download CV</a>
             </div>
-            <div className="copyright">
-                <span>Built with <a href="https://reactjs.org/">Reactjs</a></span>
-                <span>© 2021 All rights reserved.</span>
+            <div className="copyright">                
+                <span>© 2021 Built with <a href="https://reactjs.org/">Reactjs</a></span>
             </div>
         </div>
     )
