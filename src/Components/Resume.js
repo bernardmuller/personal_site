@@ -23,25 +23,7 @@ function Resume() {
                         <p>- Generate 3D models of luxury hotels in countries like Greece, Vietnam, Seychelles and Saudi Arabia that are designed by <a href="https://www.denniston.com.my/">Denniston</a>.</p>
                         <p>- Draw detailed design documentation based on the 3d models.</p>
                         <p>Maintain the basic Building Information Management (BIM) of the projects.</p>
-                    </div>
-                    <div className="experience_Role">
-                        <h3>Mosaics Commisioner</h3>
-                        <span>Deo Gloria Glass, Pretoria, (Mar 2015 - Nov 2018)</span>
-                        <p>Design and commision of mosaic pieces for clients.</p>
-                    </div>
-                    <div className="experience_Role">
-                        <h3>Volunteer</h3>
-                        <span>Pioneer's Museum, Pretoria, (Mar 2016 - Aug 2016)</span>
-                        <p>Design and construction of children's new playground area.</p>
-                    </div>
-                    <div className="experience_Role">
-                        <h3>Front Desk Worker</h3>
-                        <span>Bubble Tea Company, Pretoria, (Apr 2014 - Sept 2014)</span>
-                    </div>
-                    <div className="experience_Role">
-                        <h3>Volunteer</h3>
-                        <span>Uitkoms Home For Downsyndrome Childen, Pretoria, (Aug - 2013)</span>
-                    </div>
+                    </div>                    
                 </div>
                 <div className="education_Container">
                     <h2 className="container_Header">Education</h2>
