@@ -1,9 +1,13 @@
+import React, { useEffect } from 'react';
 import './App.css';
 
 //Components
 import Window from './Components/Window'
 
-function App() {  
+function App() { 
+  useEffect(() => {
+    document.title = "Bernard Muller"
+  }, []);
   return (
     <div className="app">
       <Window />
