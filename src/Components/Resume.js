@@ -20,7 +20,7 @@ function Resume() {
                     <div className="experience_Role">
                         <h3>Architectural Technologist</h3>
                         <span> CNR Architects CC, Cape Town, (Feb 2019 - Present)</span>
-                        <p>- Generate 3D models of luxury hotels in countries like Greeece, Vietnam, Seychelles and Saudi Arabia that are designed by <a href="https://www.denniston.com.my/">Denniston</a>.</p>
+                        <p>- Generate 3D models of luxury hotels in countries like Greece, Vietnam, Seychelles and Saudi Arabia that are designed by <a href="https://www.denniston.com.my/">Denniston</a>.</p>
                         <p>- Draw detailed design documentation based on the 3d models.</p>
                         <p>Maintain the basic Building Information Management (BIM) of the projects.</p>
                     </div>
