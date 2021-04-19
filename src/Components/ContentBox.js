@@ -8,8 +8,8 @@ import Resume from './Resume';
 function ContentBox() {
     return (
         <div className="contentBox">
-            {/* <About /> */}
-            <Resume />
+             <About /> 
+        {/* <Resume /> */}
         </div>
     )
 }
