@@ -84,12 +84,10 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 10px;
-    color: #707070;
-    text-align: center;
+    color: #707070;    
 }
 
 .copyright > span > a {
-    color: #A32424;
-    position: fixed;
+    color: #A32424;    
 }
 
