@@ -9,7 +9,7 @@ function ContentBox() {
     return (
         <div className="contentBox">
              <About /> 
-        {/* <Resume /> */}
+             <Resume />
         </div>
     )
 }
