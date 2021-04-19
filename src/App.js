@@ -3,10 +3,7 @@ import './App.css';
 //Components
 import Window from './Components/Window'
 
-function App() {
-  useEffect(() => {
-    document.title = "Bernard Muller"
-  }, []);
+function App() {  
   return (
     <div className="app">
       <Window />
