@@ -4,8 +4,8 @@ import './Resume.css';
 function Resume() {
     return (
         <div className="resume">
-            <div className="resume_Container">
-                <h2 className="resume_Header">Resume</h2>
+            <h2 className="resume_Header">Resume</h2>
+            <div className="resume_Container">                
                 <div className="career_Objective">                    
                     <h2 className="container_Header">Career Objective</h2>
                     <p>Proactive professional with 2+ years of experience in a work environment and a proven knowledge of design and documentation. Actively expanding my skillset and aiming to leverage my skills to successfully fill the Software Developer role at your company.</p>

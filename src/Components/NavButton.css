@@ -1,0 +1,21 @@
+.nav_Buttons button {
+    background: transparent;
+    border: none;
+}
+.nav_Buttons button:active {
+    outline: none;
+    border: none;
+    
+}
+
+.navButton_Icon {
+    color: #212121;
+    object-fit: contain;
+    height: 30px !important;
+    width: 30px !important;
+    cursor: pointer;
+}
+
+.navButton_Icon:hover {
+    color: #b93a3a;
+}
