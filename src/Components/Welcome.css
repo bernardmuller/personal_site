@@ -1,0 +1,35 @@
+.welcome {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cfcfcf
+}
+
+.welcome span {
+    color:#A32424;
+}
+
+.welcome h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #A32424; /* The typwriter cursor */
+    white-space: nowrap;
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .035em;
+    animation: 
+      typing 2.5s steps(40, end),
+      blink-caret .8s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 60% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #A32424; }
+  }

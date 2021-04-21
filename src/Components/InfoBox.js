@@ -26,7 +26,7 @@ function InfoBox({name, picUrl, role}) {
                         <InfoOption Icon={InstagramIcon}/>
                     </a>                
                 </div>                
-                <a className="cvButton" href="/docs/resume.pdf" download target="_blank">Download CV</a>
+                <a className="cvButton" href="/docs/resume.pdf" download>Download CV</a>
             </div>
             <div className="copyright">                
                 <span>© 2021 Built with <a href="https://reactjs.org/" target="_blank">Reactjs</a></span>

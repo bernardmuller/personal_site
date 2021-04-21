@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useState, useContext } from 'react';
 import './Nav.css';
 import { AboutContext } from './AboutContext';
 import { ResumeContext } from './ResumeContext';
