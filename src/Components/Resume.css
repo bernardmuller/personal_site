@@ -1,7 +1,9 @@
 .resume {
     height: 100%;
     width: 100%;
-    padding: 40px;
+    padding-left: 40px; 
+    padding-right: 40px; 
+    padding-bottom: 40px;
     line-height: 1.8;
 }
 
@@ -9,7 +11,7 @@
     width: 95%;
     overflow: scroll;
     overflow-x: hidden;
-    height: 88%;
+    height: 80%;
     direction: rtl;
     padding-left: 40px;
 }

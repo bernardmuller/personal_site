@@ -8,6 +8,12 @@
     
 }
 
+.nav_Buttons button:focus {
+    outline: none;
+    border: none;
+    
+}
+
 .navButton_Icon {
     color: #212121;
     object-fit: contain;

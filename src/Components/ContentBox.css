@@ -3,29 +3,6 @@
     background-color: #212121;
     border-radius: 20px;
     color: whitesmoke;
-    
-}
-
-.button {
-    height: 50px;
-    width: 50px;
-    border-radius:50%;
-    background-color: #cfcfcf;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.nav_Buttons {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 50px;
-    width: 200px;
-    background-color: #cfcfcf;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    position: absolute;
-    transform: translateX(600px);
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.3), 0 12px 16px 0 rgba(0, 0, 0, 0.28) ;
+    overflow: hidden;
 }
