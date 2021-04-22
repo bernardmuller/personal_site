@@ -56,7 +56,7 @@
     height: 150px;
 }
 
-.about_Right_Top a {
+.about_Right_Top > p > a {
     text-decoration: none;
 )
     
