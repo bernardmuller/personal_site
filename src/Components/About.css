@@ -56,6 +56,10 @@
     height: 150px;
 }
 
+.about_Right_Top a {
+    text decoration: none;
+)
+    
 .tech > img {
     margin-right: 5px;
 }
