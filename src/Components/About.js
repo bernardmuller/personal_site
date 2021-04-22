@@ -15,8 +15,8 @@ function About() {
                 <div className="about_Right">
                     <div className="about_Right_Top">
                         <p><span className="about_Info_Heading">Age</span>24</p> 
-                        <p><span className="about_Info_Heading">Home</span>Cape Town, South Africa</p>
-                        <p><span className="about_Info_Heading">Education</span>University of Pretoria</p>  
+                        <p><span className="about_Info_Heading">Home</span><a href="https://www.google.co.za/maps/place/Cape+Town/@-33.914651,18.3758815,10z/data=!3m1!4b1!4m5!3m4!1s0x1dcc500f8826eed7:0x687fe1fc2828aa87!8m2!3d-33.9248685!4d18.4240553" target="_blank">Cape Town, South Africa</a></p>
+                        <p><span className="about_Info_Heading">Education</span><a href="https://www.up.ac.za/" target="_blank">University of Pretoria</a></p>  
                         <p><span className="about_Info_Heading">Email</span>b.mullerjnr@gmail.com</p> 
                      
                         <p><span className="about_Info_Heading">Personality</span><a href="https://www.16personalities.com/istp-personality" target="_blank">ISTP-A</a></p> 
