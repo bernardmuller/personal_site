@@ -22,7 +22,7 @@ function Nav() {
     }
 
     return (
-        <div className="nav">
+        <div className="nav fadeIn">
             <div className="nav_Buttons">                 
                 <button onClick={toggleAbout}><NavButton Icon={PersonIcon} /></button> 
                 <button onClick={toggleResume}><NavButton Icon={DescriptionIcon} /></button>                
