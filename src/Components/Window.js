@@ -2,6 +2,8 @@ import React from 'react';
 import './Window.css';
 import { AboutProvider } from './AboutContext';
 import { ResumeProvider } from './ResumeContext';
+import { PortfolioProvider } from './PortfolioContext';
+import { ContactProvider } from './ContactContext';
 
 // Components
 import InfoBox from './InfoBox';
@@ -17,10 +19,13 @@ function Window() {
             role="Software Developer"/>  
             <AboutProvider>
                 <ResumeProvider>
-                    <ContentBox />
+                    <PortfolioProvider>
+                        <ContactProvider>
+                            <ContentBox />
+                        </ContactProvider>
+                    </PortfolioProvider>
                 </ResumeProvider>
-            </AboutProvider>  
-                
+            </AboutProvider>                  
         </div>
     );
 }

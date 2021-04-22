@@ -4,5 +4,6 @@
     border-radius: 20px;
     color: whitesmoke;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.3), 0 12px 16px 0 rgba(0, 0, 0, 0.28) ;
-    overflow: hidden;
+    overflow:-moz-hidden-unscrollable;
+    position: relative;
 }
