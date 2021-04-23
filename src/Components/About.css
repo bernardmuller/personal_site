@@ -55,7 +55,9 @@
 
 
 .tech {
+    
     margin-left: 20px;
+    margin-bottom: 30px;
     
 }
 
@@ -174,6 +176,7 @@
 
 
     .tech {
-        margin-left: 0;        
+        margin-left: 0;   
+        margin-bottom: 0;    
     }
 }

@@ -105,6 +105,8 @@
         align-items: center;
         justify-content: space-between;
         overflow: auto;
+        margin-bottom: 45px;
+        margin-top: 45px;
     }
     
     .info {
