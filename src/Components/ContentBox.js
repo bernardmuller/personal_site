@@ -24,7 +24,7 @@ function ContentBox() {
     const [showContact] = useContext(ContactContext);
     
     
-    const isMobile = useMediaQuery({ query: `(max-width: 760px)` });       
+    const isMobile = useMediaQuery({ query: `(max-width: 1025px)` });       
     
 
     if(isMobile) {
