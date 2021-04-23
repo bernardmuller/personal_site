@@ -1,93 +1,188 @@
-.infoBox {
-    flex: 0.333;    
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    overflow: auto;
+@media only screen and (min-width: 768px) {
+
+    .infoBox {
+        flex: 0.333;    
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        overflow: auto;
+    }
+
+    .info {
+        padding: 20px;
+        color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info > img {
+        height: 220px;
+        width: 220px;
+        border-radius: 50%;
+        margin-top: 20px;
+        border: 10px solid #707070;
+        box-shadow: 0 8px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19) ;
+        margin-bottom: 20px;
+        object-fit: cover;
+    }
+
+    .info > h1 {
+        text-align: center;
+        color: #212121;
+    }
+
+    .info > h4 {
+        text-align: center; 
+        color: #707070;   
+    }
+
+    .infoOptions {
+        display: flex;
+        justify-content: center;    
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 15px;
+    }
+
+    .cvButton {
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        padding: .8em 2.1em;
+        margin-bottom: .75em;
+        margin-right: .25em;
+        font-size: 1em;
+        line-height: 1.2;
+        border: 0;
+        outline: 0;
+        border: 2px solid #B22020;
+        color: #707070;
+        text-shadow: none;
+        background-color: transparent;
+        border-radius: 30px;
+        font-family: poppins,Helvetica,sans-serif;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        transition: all .2s ease-in-out;
+        box-shadow: 0 10px 8px -8px rgb(0 0 0 / 50%);
+    }
+
+    .cvButton:hover {
+        background-color: #A32424;
+        color: whitesmoke;
+        border: 2px solid #A32424;
+    }
+
+    .copyright {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+        color: #707070;    
+    }
+
+    .copyright > span > a {
+        color: #A32424;    
+    }
 }
 
-.info {
-    padding: 20px;
-    color: whitesmoke;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
-.info > img {
-    height: 220px;
-    width: 220px;
-    border-radius: 50%;
-    margin-top: 20px;
-    border: 10px solid #707070;
-    box-shadow: 0 8px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19) ;
-    margin-bottom: 20px;
-    object-fit: cover;
+/* // Mobile */
+@media only screen and (max-width: 768px) {
+    .infoBox {        
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        overflow: auto;
+    }
+    
+    .info {
+        padding: 20px;
+        color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .info > img {
+        height: 220px;
+        width: 220px;
+        border-radius: 50%;
+        margin-top: 20px;
+        border: 10px solid #707070;
+        box-shadow: 0 8px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19) ;
+        margin-bottom: 20px;
+        object-fit: cover;
+    }
+    
+    .info > h1 {
+        text-align: center;
+        color: #212121;
+    }
+    
+    .info > h4 {
+        text-align: center; 
+        color: #707070;   
+    }
+    
+    .infoOptions {
+        display: flex;
+        justify-content: center;    
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 15px;
+    }
+    
+    .cvButton {
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        padding: .8em 2.1em;
+        margin-bottom: .75em;
+        margin-right: .25em;
+        font-size: 1em;
+        line-height: 1.2;
+        border: 0;
+        outline: 0;
+        border: 2px solid #B22020;
+        color: #707070;
+        text-shadow: none;
+        background-color: transparent;
+        border-radius: 30px;
+        font-family: poppins,Helvetica,sans-serif;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        transition: all .2s ease-in-out;
+        box-shadow: 0 10px 8px -8px rgb(0 0 0 / 50%);
+    }
+    
+    .cvButton:hover {
+        background-color: #A32424;
+        color: whitesmoke;
+        border: 2px solid #A32424;
+    }
+    
+    .copyright {
+        visibility: hidden;  
+    }
+    
+    .copyright > span > a {
+        color: #A32424;    
+    }
+    
 }
-
-.info > h1 {
-    text-align: center;
-    color: #212121;
-}
-
-.info > h4 {
-    text-align: center; 
-    color: #707070;   
-}
-
-.infoOptions {
-    display: flex;
-    justify-content: center;    
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 15px;
-}
-
-.cvButton {
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    position: relative;
-    padding: .8em 2.1em;
-    margin-bottom: .75em;
-    margin-right: .25em;
-    font-size: 1em;
-    line-height: 1.2;
-    border: 0;
-    outline: 0;
-    border: 2px solid #B22020;
-    color: #707070;
-    text-shadow: none;
-    background-color: transparent;
-    border-radius: 30px;
-    font-family: poppins,Helvetica,sans-serif;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-    transition: all .2s ease-in-out;
-    box-shadow: 0 10px 8px -8px rgb(0 0 0 / 50%);
-}
-
-.cvButton:hover {
-    background-color: #A32424;
-    color: whitesmoke;
-    border: 2px solid #A32424;
-}
-
-.copyright {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 10px;
-    color: #707070;    
-}
-
-.copyright > span > a {
-    color: #A32424;    
-}
-
