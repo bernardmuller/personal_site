@@ -6,7 +6,7 @@ function About() {
         <div className="about">
             <h2>About me</h2>
             <section className="about_Container">                
-                <div className="about_Me">
+                <div className="about_Me" name="about">
                     <p>Hi, my name is Bernard, architectural technologist by day and software developer by night.</p>
                     <p>I studied Architecture at the University of Pretoria and graduated in 2018. Although I really enjoyed my course, I always felt a bit unfulfilled with it and knew architecture might not be for me in the long run. I was always on the lookout for something I can do to stimulate my creativity and my love for problem solving while still use the core principles of planning and design that I learned in architecture school.</p>
                     <p>In my free time, you can find me in front of my computer busy fixing broken code I have written. I'm love learning new things, and since I found my interest in programming I have been fully immersed and I'm learning new things everyday. I on platforms like Youtube, Coursera, Freecodecamp, or Udemy busy learning new things programming related, reading through documentation of APIs I might use in future projects, or scrolling through the r/webdev subreddit on Reddit to see what other people are building. I like listening to podcasts like CodeNewbie, a podcast dedicated to helping new developers on their transition into the industry.</p>

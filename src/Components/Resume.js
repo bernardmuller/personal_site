@@ -22,7 +22,7 @@ function Resume() {
                         <span> CNR Architects CC, Cape Town, (Feb 2019 - Present)</span>
                         <p>- Generate 3D models of luxury hotels in countries like Greece, Vietnam, Seychelles and Saudi Arabia that are designed by <a href="https://www.denniston.com.my/">Denniston</a>.</p>
                         <p>- Draw detailed design documentation based on the 3d models.</p>
-                        <p>Maintain the basic Building Information Management (BIM) of the projects.</p>
+                        <p>- Maintain the basic Building Information Management (BIM) of the projects.</p>
                     </div>                    
                 </div>
                 <div className="education_Container">
@@ -39,7 +39,7 @@ function Resume() {
                     <div className="education_Role">
                         <h3>National Senior Certificate</h3>
                         <span>Montana HighSchool, (Jan 2010 - Dec 2014)</span>
-                        <p>Top 50 academic student with 2 destictions</p>
+                        <p>Top 50 academic student with 2 destinctions</p>
                     </div>
                 </div>
                 <div className="certificates_Container">

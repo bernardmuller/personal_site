@@ -20,6 +20,7 @@
     color: #212121; 
     text-align: center;   
     padding-top: 50px;
+    margin-bottom: 20px;
 }
 
 .container_Header {
@@ -27,7 +28,7 @@
     font-weight: 700;
     margin-bottom: 20px;
     color: #212121;
-
+    text-align: center;
 }
 
 
@@ -36,13 +37,19 @@
     padding-top: 20px;
     margin-left: 0;
     color: #212121;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .career_Objective > p {
     color: #707070;
-    margin-left: 30px;
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: 50px;
 }
+
+/* .career_Objective > h2 {
+    text-align: center;
+} */
 
 
 /* Experience */
@@ -55,15 +62,15 @@
 
 
 .experience_Role > span {    
-    color: #cfcfcf;
+    color: #707070;
     font-size: 14px;
     
 }
 
 
 .experience_Role > p {
-    margin-left: 30px;
-    color: #707070;
+    margin-left: 15px;
+    color: #212121;
 }
 
 .experience_Role > p > a {    
@@ -81,7 +88,7 @@
 .experience_Role {
     margin-bottom: 20px;
     line-height: 1.5;
-    margin-left: 30px;
+    margin-left: 0;
 }
 
 
@@ -96,15 +103,15 @@
 
 
 .education_Role > span {    
-    color: #cfcfcf;
+    color: #707070;
     font-size: 14px;
-    margin-left: 15px;
+    /* margin-left: 15px; */
 }
 
 
 .education_Role > p {
     margin-left: 30px;
-    color: #707070;
+    color: #212121;
 }
 
 
@@ -125,7 +132,7 @@
 .education_Role {
     margin-bottom: 20px;
     line-height: 1.5;
-    margin-left: 30px;
+    margin-left: 0;
 }
 
 
@@ -174,6 +181,7 @@
         font-weight: 700;
         margin-bottom: 20px;
         color: #fff;
+        text-align: left;
     }
 
     .career_Objective {
@@ -186,6 +194,12 @@
     .career_Objective > p {
         color: #cfcfcf;
         margin-left: 30px;
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .career_Objective > h2 {
+        text-align: left;
     }
 
         
