@@ -1,58 +1,63 @@
 .resume {
     height: 100%;
     width: 100%;
-    padding-left: 40px; 
-    padding-right: 40px; 
-    padding-bottom: 40px;
-    line-height: 1.8;
+    padding-left: 20px; 
+    padding-right: 20px; 
+    /* padding-bottom: 40px; */
+    line-height: 1.5;
+    background-color: #fff;
+    
 }
 
 .resume_Container {
-    width: 95%;
-    overflow: scroll;
-    overflow-x: hidden;
-    height: 80%;
-    direction: rtl;
-    padding-left: 40px;
+    width: 100%;
+    height: 80%;    
 }
 
 .resume_Header {
     font-size: 36px;
     font-weight: 700;
-    margin-bottom: 20px;
-    direction: ltr;
+    color: #212121; 
+    text-align: center;   
+    padding-top: 50px;
 }
 
 .container_Header {
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 20px;
+    color: #212121;
+
 }
 
 
 /* Career Objective */
-.career_Objective {
-    direction: ltr;
+.career_Objective {    
+    padding-top: 20px;
+    margin-left: 0;
+    color: #212121;
     margin-bottom: 50px;
 }
 
 .career_Objective > p {
-    color: #cfcfcf;
+    color: #707070;
     margin-left: 30px;
 }
 
 
 /* Experience */
 .experience_Container {
-    direction: ltr;
+    margin-left: 0;
+    padding-left: 0;
     margin-bottom: 50px;
+    
 }
 
 
 .experience_Role > span {    
     color: #cfcfcf;
     font-size: 14px;
-    margin-left: 15px;
+    
 }
 
 
@@ -70,7 +75,7 @@
     flex-direction: column;
     flex: 0.5;
     font-size: 20px;
-    color: #A32424;
+    color: #A32424;   
 }
 
 .experience_Role {
@@ -119,7 +124,7 @@
 .education_Role {
     margin-bottom: 20px;
     line-height: 1.5;
-    margin-left: 30px;
+    
 }
 
 
@@ -128,4 +133,148 @@
 .certificates_Container {
     direction: ltr;
     
+}
+
+@media only screen and (min-width: 1025px) {
+
+    .resume {        
+        line-height: 1.8;
+        background-color: #212121;
+        padding-left: 40px; 
+        padding-right: 40px; 
+        height: 95%;
+        border-radius: 20px;
+    }
+    
+
+    .resume_Container {        
+        overflow: scroll;
+        overflow-x: hidden;        
+        direction: rtl;
+        padding-left: 40px;
+        height: 80%; 
+    }   
+
+    
+    .resume_Header {
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        direction: ltr;
+        padding-top: 0;
+        text-align: left;
+        color: #fff;
+        padding-top: 0;
+    }
+
+    
+    .container_Header {
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+
+    .career_Objective {
+        text-align: left;
+        color: #cfcfcf;
+        direction: ltr;
+        margin-bottom: 50px;
+    }
+    
+    .career_Objective > p {
+        color: #cfcfcf;
+        margin-left: 30px;
+    }
+
+        
+    /* Experience */
+    .experience_Container {
+        direction: ltr;
+        margin-bottom: 50px;
+        text-align: left;
+    }
+
+
+    .experience_Role > span {    
+        color: #cfcfcf;
+        font-size: 14px;
+        margin-left: 15px;
+    }
+
+
+    .experience_Role > p {
+        margin-left: 30px;
+        color: #707070;
+    }
+
+    .experience_Role > p > a {    
+        color: #A32424;
+    }
+
+    .experience_Role > h3 {
+        display: flex;
+        flex-direction: column;
+        flex: 0.5;
+        font-size: 20px;
+        color: #A32424;
+    }
+
+    .experience_Role {
+        margin-bottom: 20px;
+        line-height: 1.5;
+        margin-left: 30px;
+    }
+
+
+
+
+    /* Education */
+    .education_Container {
+        direction: ltr;
+        margin-bottom: 50px;
+    }
+
+
+    .education_Role > span {    
+        color: #cfcfcf;
+        font-size: 14px;
+        margin-left: 15px;
+    }
+
+
+    .education_Role > p {
+        margin-left: 30px;
+        color: #707070;
+    }
+
+
+    .education_Role > p > a {    
+        color: #A32424;
+    }
+
+
+    .education_Role > h3 {
+        display: flex;
+        flex-direction: column;
+        flex: 0.5;
+        font-size: 20px;
+        color: #A32424;
+    }
+
+
+    .education_Role {
+        margin-bottom: 20px;
+        line-height: 1.5;
+        margin-left: 30px;
+    }
+
+
+
+    /* Certificates */
+    .certificates_Container {
+        direction: ltr;
+        
+    }
+
 }

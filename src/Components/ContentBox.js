@@ -33,8 +33,8 @@ function ContentBox() {
             <div className="contentBox mobile">
                 {/* <Nav /> */}
                 <About />                    
-                {/* <Resume />
-                <Portfolio />
+                <Resume />
+                {/* <Portfolio />
                 <Contact /> */}
             </div>
         )

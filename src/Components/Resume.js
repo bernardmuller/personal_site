@@ -29,7 +29,7 @@ function Resume() {
                     <h2 className="container_Header">Education</h2>
                     <div className="education_Role">
                         <h3>The Web Developer Bootcamp 2021, by Colt Steele</h3>
-                        <span>(Dec 2020 - Apr 2021)</span>
+                        <span>Online Education (Dec 2020 - Apr 2021)</span>
                         <p><a href="https://www.udemy.com/certificate/UC-cd94563c-1bb4-4feb-9354-21da9d340675/">Certificate of Completion</a></p>
                     </div>
                     <div className="education_Role">
