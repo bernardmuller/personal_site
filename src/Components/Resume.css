@@ -87,6 +87,7 @@
 
 
 
+
 /* Education */
 .education_Container {
     direction: ltr;
@@ -124,7 +125,7 @@
 .education_Role {
     margin-bottom: 20px;
     line-height: 1.5;
-    
+    margin-left: 30px;
 }
 
 
