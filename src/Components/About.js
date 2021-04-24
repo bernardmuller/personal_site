@@ -19,7 +19,7 @@ function About() {
                         <p><span className="about_Info_Heading">Education</span><a href="https://www.up.ac.za/" target="_blank">University of Pretoria</a></p>  
                         <p><span className="about_Info_Heading">Email</span>b.mullerjnr@gmail.com</p> 
                      
-                        <p><span className="about_Info_Heading">Personality</span><a href="https://www.16personalities.com/istp-personality" target="_blank">ISTP-A</a></p> 
+                        <p><span className="about_Info_Heading">Personality Type</span><a href="https://www.16personalities.com/istp-personality" target="_blank">ISTP-A</a></p> 
                     </div>
                     <div className="about_Right_Bottom">
                         <h3>Technologies I use</h3>
