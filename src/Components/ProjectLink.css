@@ -1,0 +1,12 @@
+
+.linkButton {
+    color: #212121;
+    object-fit: contain;
+    height: 30px !important;
+    width: 30px !important;
+    cursor: pointer;
+}
+
+.linkButton:hover {
+    color: #b93a3a;
+}

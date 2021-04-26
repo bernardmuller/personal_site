@@ -1,0 +1,59 @@
+.project {
+    padding: 10px;
+    display: flex;
+    min-height: 220px;
+    width: 80%;
+    background-color: whitesmoke;    
+    border-radius: 5px;    
+    filter: opacity(50%);
+    transition: filter 0.3s ease-in-out, 
+                transform 0.3s ease-in-out, 
+                box-shadow 0.3s ease-in-out;
+}
+
+.project:hover {
+    filter: opacity(100%);
+    transform: translateY(-8px);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 1), 0 8px 12px 0 rgba(0, 0, 0, 0.28) ;
+}
+
+
+.project > img {
+    height: 200px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.projectInfo {    
+    height: 100%;
+    width: 100%;
+    padding: 10px; 
+    padding-top: 0;   
+    padding-bottom: 0;   
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between
+}
+
+.projectInfo > h3 {
+    color: #212121;
+    font-size: 24px;
+    flex: 0.2;
+}
+
+.projectInfo > p {
+    color: #707070;
+    flex: 0.7;
+}
+
+.links {
+    display: flex;
+    flex: 0.1;
+    align-self: flex-end;
+}
+
+.tooltip {
+    margin-right: 10px;
+}
+
+
