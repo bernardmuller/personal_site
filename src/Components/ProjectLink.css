@@ -1,5 +1,5 @@
 
-.linkButton {
+.projectLink {
     color: #212121;
     object-fit: contain;
     height: 30px !important;
@@ -7,6 +7,6 @@
     cursor: pointer;
 }
 
-.linkButton:hover {
+.projectLink:hover {
     color: #b93a3a;
 }
