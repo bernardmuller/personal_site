@@ -15,8 +15,8 @@ function Project({name, desc, Image, github , demo}) {
                 <h3>{name}</h3>
                 <p>{desc}</p>
                 <div className="links">
-                    <a className="tooltip" href={github} target="_blank" ><ProjectLink Icon={GitHubIcon} /><span className="tooltiptext">View Code</span></a>
-                    <a className="tooltip" href={demo} target="_blank" ><ProjectLink Icon={WebIcon} /><span className="tooltiptext">Live Demo</span></a>                
+                    {github && <a className="tooltip" href={github} target="_blank" ><ProjectLink Icon={GitHubIcon} /><span className="tooltiptext">View Code</span></a>}
+                    {demo && <a className="tooltip" href={demo} target="_blank" ><ProjectLink Icon={WebIcon} /><span className="tooltiptext">Live Demo</span></a>}                
                 </div>
 
             </div>

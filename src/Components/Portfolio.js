@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Portfolio.css'
 import Project from './Project'
 
@@ -10,6 +10,8 @@ import linkedin from './linkedin.PNG';
 
 
 function Portfolio() {
+    const [Collapsed, setCollapsed] = useState(true);
+
     return (
         <div className="portfolio">
             <h2>Portfolio</h2>
