@@ -10,12 +10,17 @@ import linkedin from './linkedin.PNG';
 
 
 function Portfolio() {
-    const [Collapsed, setCollapsed] = useState(true);
+    // const [Collapsed, setCollapsed] = useState(false);
+
+    // const toggleCollapse = () => {
+    //     setCollapsed(!Collapsed)
+    // }
 
     return (
         <div className="portfolio">
             <h2>Portfolio</h2>
-            <div className="projects_Container">
+            {/* <button className="showBtn" onclick={toggleCollapse}>Show Portfolio</button> */}
+            <div className={`projects_Container`}>
                 <Project 
                     name="My Personal Site"
                     desc="A 'business card' site I built for myself as a way to display my work and develope my ReactJS skills."

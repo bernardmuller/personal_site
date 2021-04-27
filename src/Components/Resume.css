@@ -147,7 +147,7 @@
 
     .resume {        
         line-height: 1.8;
-        background-color: #212121;
+        background-color: transparent;
         padding-left: 40px; 
         padding-right: 40px; 
         height: 95%;

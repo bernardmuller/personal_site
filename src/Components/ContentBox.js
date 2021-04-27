@@ -35,7 +35,7 @@ function ContentBox() {
                 <About />                    
                 <Resume />
                 <Portfolio />
-                {/*  <Contact /> */}
+                <Contact />
             </div>
         )
 

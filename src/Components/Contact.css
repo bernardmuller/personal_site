@@ -1,8 +1,170 @@
 .contact {
-    height: 80%;
+    height: 100%;
     width: 100%;
+    border-radius: 20px;
+    /* padding-bottom: 40px; */
+    line-height: 1.5;
+    background-color: #fff;    
+}
+
+.contact > h2 {
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: 700;  
+    text-align: center;     
+    margin-bottom: 30px;
+    color: #212121; 
+}
+
+.contact > p {
+    color: #707070;    
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0 20px 0 20px;
+}
+
+.contact > p + p{
+    color: #A32424;    
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0 20px 0 20px;
+}
+
+.contact_Container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 490px;
+    background-color: #212121;
+    border-radius: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+}
+
+.form_Container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.form_Input {
+    height: 50px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border: none;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#707070;
+    border-radius: 4px; 
+    padding-left: 20px;    
+}
+
+.form_Input:active {
+    border-color: #A32424;
+}
+
+.form_Input:focus {
+    border-color: #A32424;
+}
+
+.form_Message {
+    width: 100%;
+    height: 150px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    /* border: 2px solid #ccc; */
+    border-radius: 4px;    
+    resize: none;
+    font-size: 16px;    
+}
+
+.submit_Button {
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding: .8em 2.1em;
+    margin-right: .25em;
+    font-size: 1em;
+    line-height: 1.2;
+    border: 0;
+    outline: 0;
+    border: 2px solid #B22020;
+    color: #fff;
+    text-shadow: none;
+    background-color: #B22020;
+    border-radius: 30px;
+    font-family: poppins,Helvetica,sans-serif;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .2s ease-in-out;
+    box-shadow: 0 10px 8px -8px rgb(0 0 0 / 50%);
+}
+
+.copyRight {
+    margin: 10px;
+    text-align: center;
+    color: #707070;
+}
+
+.copyRight > a {
+    text-decoration: none;
+    color: #A32424;
+}
+
+@media only screen and (min-width: 1025px) {
+
+    
+    .contact { 
+             
+        margin-top: 0;
+        line-height: 1.8;
+        background-color: transparent;
+        padding-left: 40px; 
+        padding-right: 40px; 
+        height: 95%;
+        border-radius: 20px;        
+    }
+
+    .contact > h2 {     
+        margin-top: 0;   
+        text-align: left;   
+        color: #fff; 
+    }
+
+    .contact > p { 
+        color: #fff;
+    }
+
+    .copyRight {
+        visibility: hidden;
+    }
+
+    .contact_Container {
+        padding: 0 40px 0 40px;
+        width: 100%;
+        height: 490px;
+        background-color: transparent;
+        border-radius: 20px;
+    }
+
+    .form {
+        
+    }
+
+    .submit_Button {
+        cursor: pointer;
+    }
 }
