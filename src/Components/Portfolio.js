@@ -16,7 +16,7 @@ function Portfolio() {
             <div className="projects_Container">
                 <Project 
                     name="My Personal Site"
-                    desc="A 'business card' site I built for myself as a way to develope my ReactJS skills."
+                    desc="A 'business card' site I built for myself as a way to display my work and develope my ReactJS skills."
                     className="project"
                     Image={personal_site} 
                     github='https://github.com/bernardmuller/bernardmuller_site' 

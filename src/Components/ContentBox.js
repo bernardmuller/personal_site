@@ -34,8 +34,8 @@ function ContentBox() {
                 {/* <Nav /> */}
                 <About />                    
                 <Resume />
-                {/* <Portfolio />
-                <Contact /> */}
+                <Portfolio />
+                {/*  <Contact /> */}
             </div>
         )
 
