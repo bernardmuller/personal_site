@@ -19,11 +19,15 @@
 }
 
 .about_Container { 
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     flex: 0.5;
     margin-top: 2em;    
 }
 
 .about_Me {  
+    flex: 0.7;
     width: 100%;    
     height: 75%;     
 }
@@ -39,23 +43,23 @@
     margin-right: 10px;
 }
 
-.about_Right {
+.about_Info {
     display: flex;
     flex-direction: column;
-    width: 300px;    
+       
 }
 
-.about_Right_Top {
+.about_Info_Headings {
+    flex: 0.5;
     display: flex;
     flex-direction: column;   
     margin-top: 30px; 
     margin-left: 20px;
     margin-right: 10px;    
-    width: 250px;
-    height: 150px;
+    
 }
 
-.about_Right_Top > p {
+.about_Info_Headings > p {
     margin-bottom: 5px;
 }
 
@@ -71,7 +75,7 @@
     margin-right: 5px;
 }
 
-.about_Right_Bottom > h3{
+.about_Tech > h3{
     display: flex;
     flex-direction: column;
     margin-left: 20px;
@@ -139,14 +143,14 @@
         margin-top: 0;        
     }
 
-    .about_Right_Top > p {
+    .about_Info_Headings > p {
         margin-bottom: 0;
     }
     
 
     .about_Container {
         display: flex;
-        justify-content: space-between;        
+    
     }
 
     .about_Info_Heading {
@@ -167,8 +171,9 @@
     
 
     
-    .about_Me {  
-        width: 60%;
+    .about_Me {       
+        
+        width: 100%;
         overflow: scroll;
         overflow-x: hidden;
         height: 81%;
@@ -177,26 +182,34 @@
 
 
     .about_Me p {        
-        margin-bottom: 6px;
+        margin-bottom: 18px;
         padding-right: 20px;
         padding-left: 10px;
         direction: ltr;        
     }
+
+    .about_Info { 
+        display: flex;
+    }
     
     
-    .about_Right_Top {      
+    .about_Info_Headings {      
         margin-left: 0;
         margin-right: 0; 
         flex: 0.5; 
-        
+    }
+    
+    .about_Tech {
+        flex: 0.5;
+
     }
 
     
-    .about_Right_Bottom > h3{        
+    .about_Tech > h3{        
         margin-left: 0;
         margin-right: 0;
         margin-top: 20px;
-        flex: 0.5;          
+                 
     }
 
 

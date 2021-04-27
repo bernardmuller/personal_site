@@ -6,22 +6,21 @@ function About() {
         <div className="about">
             <h2>About me</h2>
             <section className="about_Container">                
-                <div className="about_Me" name="about">
+                <div className="about_Me">
                     <p>Hi, my name is Bernard, architectural technologist by day and software developer by night.</p>
                     <p>I studied Architecture at the University of Pretoria and graduated in 2018. Although I really enjoyed my course, I always felt a bit unfulfilled with it and knew architecture might not be for me in the long run. I was always on the lookout for something I can do to stimulate my creativity and my love for problem solving while still use the core principles of planning and design that I learned in architecture school.</p>
                     <p>In my free time, you can find me in front of my computer busy fixing broken code I have written. I'm love learning new things, and since I found my interest in programming I have been fully immersed and I'm learning new things everyday. I on platforms like Youtube, Coursera, Freecodecamp, or Udemy busy learning new things programming related, reading through documentation of APIs I might use in future projects, or scrolling through the r/webdev subreddit on Reddit to see what other people are building. I like listening to podcasts like CodeNewbie, a podcast dedicated to helping new developers on their transition into the industry.</p>
                     <p>I'm currently working hard on my goal to build projects and land a job in tech.</p>
                 </div>                
-                <div className="about_Right">
-                    <div className="about_Right_Top">
-                        <p><span className="about_Info_Heading">Age</span>24</p> 
+                <div className="about_Info">
+                    <div className="about_Info_Headings">
+                        <p><span className="about_Info_Heading">Born</span>23 May 1996</p> 
                         <p><span className="about_Info_Heading">Home</span><a href="https://www.google.co.za/maps/place/Cape+Town/@-33.914651,18.3758815,10z/data=!3m1!4b1!4m5!3m4!1s0x1dcc500f8826eed7:0x687fe1fc2828aa87!8m2!3d-33.9248685!4d18.4240553" target="_blank">Cape Town, South Africa</a></p>
                         <p><span className="about_Info_Heading">Education</span><a href="https://www.up.ac.za/" target="_blank">University of Pretoria</a></p>  
-                        <p><span className="about_Info_Heading">Email</span>b.mullerjnr@gmail.com</p> 
-                     
+                        <p><span className="about_Info_Heading">Email</span>b.mullerjnr@gmail.com</p>                      
                         <p><span className="about_Info_Heading">Personality Type</span><a href="https://www.16personalities.com/istp-personality" target="_blank">ISTP-A</a></p> 
                     </div>
-                    <div className="about_Right_Bottom">
+                    <div className="about_Tech">
                         <h3>Technologies I use</h3>
                         <div className="tech">
                             <img src="https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript" alt=""/>

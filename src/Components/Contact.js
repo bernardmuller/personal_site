@@ -20,7 +20,7 @@ function Contact() {
     return (
         <div className="contact">
             <h2>Contact me</h2>
-            <p>Thank you for viewing my work. I am always learning and will be expanding my skills.</p>
+            <p>Thank you for viewing my work. I am always learning new things and will be expanding my portfolio further, and display it here.</p>
             <p>If you like what you see and want to get in touch, feel free to use the form below.</p>
             <div className="contact_Container">
                 <form onSubmit={sendEmail} className="form">
