@@ -31,7 +31,7 @@ function ContentBox() {
 
         return(
             <div className="contentBox mobile">
-                {/* <Nav /> */}
+                <Nav />
                 <About />                    
                 <Resume />
                 <Portfolio />

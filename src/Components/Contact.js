@@ -47,7 +47,7 @@ function Contact() {
     }
 
     return (
-        <div className="contact">
+        <div id="contact_Link" className="contact">
             <h2>Contact me</h2>
             <p>Thank you for viewing my work. I am always learning new things and will be expanding my portfolio further, and display it here.</p>
             <p>If you like what you see and want to get in touch, feel free to use the form below.</p>

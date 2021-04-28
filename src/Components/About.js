@@ -10,7 +10,7 @@ function About() {
 
 
     return (
-        <div className="about">
+        <div id="about_Link" className="about">
             <h2>About me</h2>
             <section className="about_Container">                
                 <div className="about_Me">

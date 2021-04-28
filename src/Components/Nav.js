@@ -49,10 +49,10 @@ function Nav() {
     return (
         <div className="nav">
             <div className="nav_Buttons">                 
-                <button className="tooltip" onClick={toggleAbout}><NavButton Icon={PersonIcon} /><span className="tooltiptext">About Me</span></button> 
-                <button className="tooltip" onClick={toggleResume}><NavButton Icon={DescriptionIcon} /><span className="tooltiptext">Resume</span></button>                
-                <button className="tooltip" onClick={togglePortfolio}><NavButton Icon={WorkIcon} /><span className="tooltiptext">Portfolio</span></button>                
-                <button className="tooltip" onClick={toggleContact}><NavButton Icon={ChatBubbleIcon} /><span className="tooltiptext">Contact</span></button>                
+                <a href="#about_Link" className="tooltip" onClick={toggleAbout}><NavButton Icon={PersonIcon} /><span className="tooltiptext">About Me</span></a> 
+                <a href="#resume_Link" className="tooltip" onClick={toggleResume}><NavButton Icon={DescriptionIcon} /><span className="tooltiptext">Resume</span></a>                
+                <a href="#portfolio_Link" className="tooltip" onClick={togglePortfolio}><NavButton Icon={WorkIcon} /><span className="tooltiptext">Portfolio</span></a>                
+                <a href="#contact_Link" className="tooltip" onClick={toggleContact}><NavButton Icon={ChatBubbleIcon} /><span className="tooltiptext">Contact</span></a>                
              </div>
         </div>
     )

@@ -5,6 +5,11 @@
   background-color: #cfcfcf;
 }
 
+/* .tooltip {
+  display: none;
+  visibility: hidden; 
+} */
+
 @media only screen and (min-width: 1025px) {
   .app {
     height: 100vh;
@@ -16,6 +21,7 @@
     background-size: 400% 400%;
     position: relative;
     animation: change 20s ease-in-out infinite;
+    overflow: hidden;
   }
     
     

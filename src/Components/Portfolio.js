@@ -17,7 +17,7 @@ function Portfolio() {
     // }
 
     return (
-        <div className="portfolio">
+        <div id="portfolio_Link" className="portfolio">
             <h2>Portfolio</h2>
             {/* <button className="showBtn" onclick={toggleCollapse}>Show Portfolio</button> */}
             <div className={`projects_Container`}>

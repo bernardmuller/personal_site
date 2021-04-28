@@ -3,7 +3,7 @@ import './Resume.css';
 
 function Resume() {
     return (
-        <div className="resume">
+        <div id="resume_Link" className="resume">
             <h2 className="resume_Header">Resume</h2>
             <div className="resume_Container">                
                 <div className="career_Objective">                    
