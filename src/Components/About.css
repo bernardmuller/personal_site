@@ -48,6 +48,11 @@
     text-decoration: underline;
 }
 
+.about_Me p a:hover {
+    color: #A32424;
+    text-decoration: underline;
+}
+
 .about_Info {
     display: flex;
     flex-direction: column;
