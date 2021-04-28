@@ -171,15 +171,20 @@
     }
         
     .about_Info_Heading + a {
-        text-decoration: none;    
+        text-decoration: underline;    
         color: #f5f5f5;    
     }
     
     .about_Info_Heading + a:hover {    
-        text-decoration: underline;        
+        color: #A32424;       
     }
     
-
+    .link_Arrow {        
+        object-fit: contain;
+        height: 15px !important;
+        width: 15px !important;
+    }  
+    
     
     .about_Me {       
         
@@ -208,6 +213,8 @@
         margin-right: 0; 
         flex: 0.5; 
     }
+
+
     
     .about_Tech {
         flex: 0.5;

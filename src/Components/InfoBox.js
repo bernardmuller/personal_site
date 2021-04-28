@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './InfoBox.css';
 
 //Components
@@ -8,7 +8,11 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import InstagramIcon from '@material-ui/icons/Instagram';
 
+import CallMadeIcon from '@material-ui/icons/CallMade';
+
 function InfoBox({name, picUrl, role}) {
+    const [hover, setHover] = useState(false);
+
     return (
         <div className="infoBox">
             <div className="info">
@@ -26,10 +30,17 @@ function InfoBox({name, picUrl, role}) {
                         <InfoOption Icon={InstagramIcon}/>
                     </a>                
                 </div>                
-                <a className="cvButton" href="./docs/resume.pdf" download>Download CV</a>
+                <a className="cvButton" href="./resume.pdf" download="resume.pdf">Download CV</a>
             </div>
             <div className="copyright">                
-                <span>© 2021 Built with <a href="https://reactjs.org/" target="_blank">Reactjs</a></span>
+                <span>
+                    © 2021 Built with  
+                     <a  onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}
+                        href="https://reactjs.org/" target="_blank">
+                            Reactjs
+                            {hover? <CallMadeIcon className="link_Arrow"/>: null}
+                    </a>
+                </span>
             </div>
         </div>
     )

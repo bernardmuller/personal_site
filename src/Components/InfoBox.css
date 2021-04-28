@@ -83,6 +83,7 @@
     }
 
     .copyright {
+        width: 200px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -187,5 +188,11 @@
     .copyright > span > a {
         color: #A32424;    
     }
+
+    .link_Arrow {        
+        object-fit: contain;
+        height: 15px !important;
+        width: 15px !important;
+    } 
     
 }

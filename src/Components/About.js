@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './About.css'; 
 
+import CallMadeIcon from '@material-ui/icons/CallMade';
+
 function About() {
+    const [hover1, setHover1] = useState(false);
+    const [hover2, setHover2] = useState(false);
+    const [hover3, setHover3] = useState(false);
+
+
     return (
         <div className="about">
             <h2>About me</h2>
@@ -14,8 +21,8 @@ function About() {
                         while still use the core principles of planning and design that I learned in architecture school.</p>
                     <p>In my free time, you can find me in front of my computer busy fixing broken code I have written. I love learning new things, 
                         and since I found my interest in programming I have been fully immersed in it and I'm learning new things everyday. 
-                        Im always on platforms like <a href="https://www.youtube.com/" target="_blank"> Youtube</a>, <a href="https://www.coursera.org/" target="_blank"> Coursera</a>, 
-                        <a href="https://www.freecodecamp.org/" target="_blank"> Freecodecamp</a>, or <a href="https://www.udemy.com/" target="_blank"> Udemy</a> busy learning new things programming related, 
+                        Im always on platforms like <a href="https://www.youtube.com/" target="_blank"> Youtube</a>, <a href="https://www.coursera.org/" target="_blank"> Coursera</a>,   
+                         <a href="https://www.freecodecamp.org/" target="_blank"> Freecodecamp</a>, or <a href="https://www.udemy.com/" target="_blank"> Udemy</a> busy learning new things programming related, 
                         reading through documentation of APIs I might use in future projects, or scrolling through the 
                         <a href="https://www.reddit.com/r/webdev/" target="_blank"> r/webdev</a> subreddit on Reddit to see what other people are building. 
                         I like listening to podcasts like <a href="https://www.codenewbie.org/podcast" target="_blank"> CodeNewbie</a>, 
@@ -25,10 +32,37 @@ function About() {
                 <div className="about_Info">
                     <div className="about_Info_Headings">
                         <p><span className="about_Info_Heading">Born</span>23 May 1996</p> 
-                        <p><span className="about_Info_Heading">Home</span><a href="https://www.google.co.za/maps/place/Cape+Town/@-33.914651,18.3758815,10z/data=!3m1!4b1!4m5!3m4!1s0x1dcc500f8826eed7:0x687fe1fc2828aa87!8m2!3d-33.9248685!4d18.4240553" target="_blank">Cape Town, South Africa</a></p>
-                        <p><span className="about_Info_Heading">Education</span><a href="https://www.up.ac.za/" target="_blank">University of Pretoria</a></p>  
-                        <p><span className="about_Info_Heading">Email</span>b.mullerjnr@gmail.com</p>                      
-                        <p><span className="about_Info_Heading">Personality Type</span><a href="https://www.16personalities.com/istp-personality" target="_blank">ISTP-A</a></p> 
+                        <p>
+                            <span className="about_Info_Heading">
+                                Home
+                            </span>
+                            <a  onMouseEnter={() => setHover1(true)} onMouseLeave={() => setHover1(false)}
+                                href="https://www.google.co.za/maps/place/Cape+Town/@-33.914651,18.3758815,10z/data=!3m1!4b1!4m5!3m4!1s0x1dcc500f8826eed7:0x687fe1fc2828aa87!8m2!3d-33.9248685!4d18.4240553" target="_blank">
+                                    Cape Town, South Africa
+                                    {hover1? <CallMadeIcon className="link_Arrow"/>: null}  
+                            </a>
+                        </p>
+                        <p>
+                            <span className="about_Info_Heading">
+                                Education
+                            </span>
+                            <a onMouseEnter={() => setHover2(true)} onMouseLeave={() => setHover2(false)} href="https://www.up.ac.za/" target="_blank">
+                                University of Pretoria
+                                {hover2? <CallMadeIcon className="link_Arrow"/>: null}                                
+                            </a>
+                        </p>  
+                        {/* <p><span className="about_Info_Heading">Email</span>b.mullerjnr@gmail.com</p>                       */}
+                        <p>
+                            <span className="about_Info_Heading">
+                                Personality Type
+                            </span>
+                            <a  onMouseEnter={() => setHover3(true)} onMouseLeave={() => setHover3(false)}
+                                href="https://www.16personalities.com/istp-personality" 
+                                target="_blank">
+                                    ISTP-A
+                                    {hover3? <CallMadeIcon className="link_Arrow"/>: null} 
+                            </a>
+                        </p> 
                     </div>
                     <div className="about_Tech">
                         <h3>Technologies I use</h3>
