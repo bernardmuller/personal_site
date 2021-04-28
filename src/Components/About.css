@@ -43,6 +43,11 @@
     margin-right: 10px;
 }
 
+.about_Me p a {
+    color: #fff;
+    text-decoration: underline;
+}
+
 .about_Info {
     display: flex;
     flex-direction: column;
