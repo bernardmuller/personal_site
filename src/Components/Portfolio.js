@@ -23,7 +23,7 @@ function Portfolio() {
             <div className={`projects_Container`}>
                 <Project 
                     name="My Personal Site"
-                    desc="A 'business card' site I built for myself as a way to display my work and develope my ReactJS skills."
+                    desc="A 'business card' site I built for myself as a way to display my work and develop my ReactJS skills."
                     className="project"
                     Image={personal_site} 
                     github='https://github.com/bernardmuller/bernardmuller_site' 
@@ -31,7 +31,7 @@ function Portfolio() {
                 />
                 <Project 
                     name="Timesheet Web"
-                    desc="'Auto Timesheet' refactored in Express, Nodejs and MongoDB. Built to help develope my skills in fullstack apps."
+                    desc="'Auto Timesheet' refactored in Express, Nodejs and MongoDB, with a REST API backend, user authentication and both browser and server side validation."
                     className="project"
                     Image={timesheetWeb} 
                     github='https://github.com/bernardmuller/timesheet' 
