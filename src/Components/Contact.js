@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect} from 'react'
 import emailjs from 'emailjs-com';
 // import { useForm } from "react-hook-form";
 import './Contact.css'
@@ -8,7 +8,7 @@ function Contact() {
     const [email, setEmail] = useState("");
     const [subject, setSubject] = useState("");
     const [message, setMessage] = useState("");
-    const [validated, setValidated] = useState(false)
+    const [notify, setNotify] = useState(false)
 
     const handleName = (e) => {
         console.log(e.target.value)
@@ -28,7 +28,8 @@ function Contact() {
     const handleMessage = (e) => { 
         console.log(e.target.value)       
         setMessage(e.target.value)
-    }
+    };
+
     
     const sendEmail = (e) => {
         e.preventDefault();
@@ -43,7 +44,7 @@ function Contact() {
             console.log(error.text);
         });
         e.target.reset()
-        alert("Your message has been sent to Bernard.")
+        setNotify(true)        
     }
 
     return (
@@ -70,10 +71,21 @@ function Contact() {
                 </form>
             </div> 
             <div className="copyRight">
-            <span>© 2021 Built with <a href="https://reactjs.org/" target="_blank">Reactjs</a></span>
-            </div>                     
+                <span>© 2021 Built with <a href="https://reactjs.org/" target="_blank">Reactjs</a></span>
+            </div> 
+            {notify && 
+                <div className="notification_Window">
+                    <div className="notification">
+                        <h2>Your message has been sent to Bernard</h2>
+                        <a className='notificationButton' href="" onclick={e => setNotify(false)}>Cool Beans</a>
+                    </div>                
+                </div>
+            }
+             
+                            
         </div>
     )
 }
 
 export default Contact
+

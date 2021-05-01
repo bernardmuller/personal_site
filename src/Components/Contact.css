@@ -124,6 +124,57 @@
     color: #A32424;
 }
 
+.notification_Window {
+    background-color: #212121;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    bottom: 0;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.notification {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    height: 100px;
+    width: 60%;
+    z-index: 999;    
+    
+}
+
+.notificationButton {
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding: .8em 2.1em;
+    margin-right: .25em;
+    font-size: 1em;
+    line-height: 1.2;
+    border: 0;
+    outline: 0;
+    border: 2px solid #B22020;
+    color: #fff;
+    text-shadow: none;
+    background-color: #B22020;
+    border-radius: 30px;
+    font-family: poppins,Helvetica,sans-serif;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .2s ease-in-out;
+    box-shadow: 0 10px 8px -8px rgb(0 0 0 / 50%);
+}
+
 @media only screen and (min-width: 1025px) {
 
     
@@ -166,5 +217,57 @@
 
     .submit_Button {
         cursor: pointer;
+    }
+
+        
+    .notification_Window {
+        background-color: #212121;
+        height: 100%;
+        width: 95%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        top:0;
+        border-radius: 20px;
+        
+    }
+
+    .notification {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        height: 100px;
+        width: 60%;
+        z-index: 999;    
+        
+    }
+
+    .notificationButton {
+        margin-top: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        padding: .8em 2.1em;
+        margin-right: .25em;
+        font-size: 1em;
+        line-height: 1.2;
+        border: 0;
+        outline: 0;
+        border: 2px solid #B22020;
+        color: #fff;
+        text-shadow: none;
+        background-color: #B22020;
+        border-radius: 30px;
+        font-family: poppins,Helvetica,sans-serif;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        transition: all .2s ease-in-out;
+        box-shadow: 0 10px 8px -8px rgb(0 0 0 / 50%);
     }
 }
