@@ -17,13 +17,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(-45deg,#0c0c0c, #303030, #2b1212, #181818);
-    background-size: 400% 400%;
+    background: linear-gradient(-45deg,#212121, #c5c5c5, #440e0e, #707070);
+    background-size: 500% 500%;
     position: relative;
     animation: change 20s ease-in-out infinite;
     overflow: hidden;
   }
-    
+  /* #2b1212 */
     
   @keyframes change {
     0% {

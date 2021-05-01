@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './InfoBox.css';
 
+
 //Components
 import InfoOption from './InfoOption';
 // icons
@@ -30,7 +31,7 @@ function InfoBox({name, picUrl, role}) {
                         <InfoOption Icon={InstagramIcon}/>
                     </a>                
                 </div>                
-                <a className="cvButton" href="./resume.pdf" download="resume.pdf">Download CV</a>
+                <a className="cvButton" href="Bernard_Muller_Resume.pdf" download>Download CV</a>
             </div>
             <div className="copyright">                
                 <span>
