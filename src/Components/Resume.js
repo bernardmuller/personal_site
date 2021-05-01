@@ -8,7 +8,7 @@ function Resume() {
             <div className="resume_Container">                
                 <div className="career_Objective">                    
                     <h2 className="container_Header">Career Objective</h2>
-                    <p>Proactive professional with 2+ years of experience in a work environment and a proven knowledge of design and documentation. Actively expanding my skillset and aiming to leverage my skills to successfully fill the Software Developer role at your company.</p>
+                    <p>Proactive professional with 2+ years of experience in a work environment and a proven knowledge of problem solving through design. Actively expanding my skillset and aiming to leverage my skills to successfully fill a Software Developer role.</p>
                 </div>            
                 <div className="experience_Container">
                     <h2 className="container_Header">Experience</h2>
@@ -43,10 +43,10 @@ function Resume() {
                         <p>Top 50 academic student with 2 destinctions</p>
                     </div>
                 </div>
-                <div className="certificates_Container">
+                {/* <div className="certificates_Container">
                     <h2 className="container_Header">Certificates</h2>
                     <p>Insert Certificate Components here</p>
-                </div>
+                </div> */}
             </div>
         </div>
     )

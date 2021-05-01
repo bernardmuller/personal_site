@@ -8,7 +8,8 @@ function Welcome() {
         const messages = [
             'Hi there, Welcome to my page! 😃',
             'Hello, it is so nice to meet you! 😊',
-            'Greetings friend, and welcome! 🙂'
+            'Greetings friend, and welcome! 🙂',
+            'Speak, friend, and enter. 🧙🏼‍♂️'
         ];
         const randomGreeting = messages[Math.floor(Math.random() * messages.length)];
         setWelcomeMessage(randomGreeting)
