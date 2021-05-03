@@ -7,6 +7,7 @@ import personal_site from './personal_site.PNG';
 import auto_timesheet from './auto_timesheet.PNG';
 import dad_joke from './dad_joke.PNG';
 import linkedin from './linkedin.PNG';
+import calculator from './calculator.PNG';
 
 
 function Portfolio() {
@@ -38,14 +39,6 @@ function Portfolio() {
                     demo='https://timesheets-cnr.herokuapp.com/'
                 />
                 <Project 
-                    name="Linkedin Clone"
-                    desc="A Linkedin clone built using Reactjs, Redux and Firebase. This one is still a work in progress... It has lots of bugs. :("
-                    className="project"
-                    Image={linkedin} 
-                    github='https://github.com/bernardmuller/linkedin-clone' 
-                    
-                />
-                <Project 
                     name="Auto Timesheet"
                     desc="An automation app that helps an employee with the tracking of their work everyday. My first real-world project built in Python."
                     className="project"
@@ -53,6 +46,21 @@ function Portfolio() {
                     github='https://github.com/bernardmuller/auto_timesheet' 
                     
                 />
+                <Project 
+                    name="Linkedin Clone"
+                    desc="A Linkedin clone built using Reactjs, Redux and Firebase. This one is still a work in progress... It has lots of bugs. :("
+                    className="project"
+                    Image={linkedin} 
+                    github='https://github.com/bernardmuller/linkedin-clone'                                      
+                />
+                <Project 
+                    name="Calculator"
+                    desc="A simple calculator written in modern JavaScript"
+                    className="project"
+                    Image={calculator} 
+                    github='https://github.com/bernardmuller/calculator' 
+                    demo="https://bernardmuller.github.io/calculator/"                       
+                />                
                 <Project 
                     name="Dad Joke Generator"
                     desc="An app that generates dad jokes using the icanhazdadjoke.com API."
