@@ -13,14 +13,19 @@ function Resume() {
                 <div className="experience_Container">
                     <h2 className="container_Header">Experience</h2>
                     <div className="experience_Role">
+                        <h3>Junior Software Developer</h3>
+                        <span>Hatronika (Pty) Ltd(Sept 2021 - Present)</span>
+                        <p>Still building experience in my role, chekc back in a few months</p>                        
+                    </div>
+                    <div className="experience_Role">
                         <h3>Software Developer</h3>
-                        <span>Freelance, Cape Town (Jun 2020 - Present)</span>
+                        <span>Freelance, Cape Town (Jun 2020 - Sept 2021)</span>
                         <p>- Find and solve problems with software as a medium.</p>
                         <p>- Design and development of software with technologies like: Python, Node.js, MongoDB, React, HTML, CSS, JavaScript.</p>
                     </div>
                     <div className="experience_Role">
                         <h3>Architectural Technologist</h3>
-                        <span> CNR Architects CC, Cape Town, (Feb 2019 - Present)</span>
+                        <span> CNR Architects CC, Cape Town, (Feb 2019 - Sept 2021)</span>
                         <p>- Generate detailed design documentation of luxury hotels in countries like Greece, Vietnam, Seychelles and Saudi Arabia that are designed by <a href="https://www.denniston.com.my/">Denniston</a>.</p>
                         <p>- Solve architectural problems with the use of visualizing, sketching and Autodesk Revit as the mediums.</p>
                         <p>- Maintain the basic Building Information Management (BIM) of the projects.</p>
