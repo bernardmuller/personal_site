@@ -16,7 +16,7 @@ function Window() {
             <InfoBox 
             picUrl="https://avatars.githubusercontent.com/u/61446115?v=4" 
             name="Bernard Muller"
-            role="Software Developer"/>  
+            role="Junior Software Engineer"/>  
             <AboutProvider>
                 <ResumeProvider>
                     <PortfolioProvider>
