@@ -14,12 +14,12 @@ function About() {
             <h2>About me</h2>
             <section className="about_Container">                
                 <div className="about_Me">
-                    <p>Hi 👋, my name is Bernard, architectural technologist by day and software developer by night.</p>
+                    <p>Hi 👋, my name is Bernard, software engineer by day and gamer by night.</p>
                     <p>I studied Architecture at the University of Pretoria and graduated in 2018. Although I really enjoyed my course,
                         I always felt a bit unfulfilled by it and knew architecture might not be for me in the long run. 
                         I am always on the lookout for something I can do to stimulate my creativity and my love for problem solving, 
                         while still using the core principles of planning and design that I learned in architecture school.</p>
-                    <p>In my free time, you can find me in front of my computer reviewing previous code I've written or tackling new projects. I love learning new things, 
+                    <p>I am currently working as a junior software engineer and enjoy playing games in my free time. So you can usually find me in front of my computer reviewing previous code I've written or tackling new projects. I love learning new things, 
                         and since I found my interest in programming I have been fully immersed in the world of tech. 
                         I enjoy browsing platforms like <a href="https://www.youtube.com/" target="_blank"> Youtube</a>, <a href="https://www.coursera.org/" target="_blank"> Coursera</a>,   
                          <a href="https://www.freecodecamp.org/" target="_blank"> Freecodecamp</a>, or <a href="https://www.udemy.com/" target="_blank"> Udemy</a>.  
@@ -27,8 +27,7 @@ function About() {
                         <a href="https://www.reddit.com/r/webdev/" target="_blank"> r/webdev</a> subreddit on Reddit to see what other people are building. 
                         I like listening to podcasts like  The <a href="https://www.codenewbie.org/podcast" target="_blank"> CodeNewbie</a> podcast, 
                         a podcast that is dedicated to helping new developers with their transition into the industry.</p>
-                    <p>Software development has taught me new ways of approaching a problem, by breaking it down into smaller pieces and resolving it bit by bit. I feel that my
-                         professional skills are easily transferable to the software development industry. I'm currently working hard on building coding projects to land a job in tech.</p>
+                    <p>Software development has taught me new ways of approaching a problem, by breaking it down into smaller pieces and resolving it bit by bit.</p>
                     <p>🥔</p>
                 </div>                
                 <div className="about_Info">
